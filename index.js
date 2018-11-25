@@ -12,7 +12,6 @@ app.use(bodyParser.json())
 app.use(cors())
 app.use(nocache())
 
-// app.use(require('./app/protected'))
 app.use(require('./app/public'))
 
 const port = 2193
